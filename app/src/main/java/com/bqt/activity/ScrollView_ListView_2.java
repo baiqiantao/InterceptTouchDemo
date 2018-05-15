@@ -25,10 +25,13 @@ public class ScrollView_ListView_2 extends Activity {
 		
 		ListView lv1 = new ListView(this);
 		lv1.setBackgroundColor(0x33ff0000);
-		lv1.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, new String[]{"白", "白", "白", "白", "白", "白", "白", "白", "白", "白"}));
+		lv1.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,
+				new String[]{"白", "白", "白", "白", "白", "白", "白", "白", "白", "白", "白", "白", "白", "白", "白", "白", "白", "白", "白",}));
+		
 		ListView lv2 = new ListView(this);
 		lv2.setBackgroundColor(0x3300ff00);
-		lv2.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, new String[]{"包", "包", "包", "包", "包", "包", "包", "包", "包", "包"}));
+		lv2.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,
+				new String[]{"包", "包", "包", "包", "包", "包", "包", "包", "包", "包", "包", "包", "包", "包", "包", "包", "包", "包", "包",}));
 		
 		linearLayout.addView(lv1);
 		setListViewHeight(lv1);
